@@ -1,15 +1,15 @@
 {
   "name": "@ajaisgtickets/common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "/build/index.js",
   "types": "/build/index.d.ts",
   "exports": {
-  ".": {
-    "import": "./build/index.js",
-    "types": "./build/index.d.ts"
-  }
-},
+    ".": {
+      "import": "./build/index.js",
+      "types": "./build/index.d.ts"
+    }
+  },
   "files": [
     "build/**/*"
   ],
