@@ -1,8 +1,11 @@
 {
-  "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    "declaration": false,
+    "outDir": "./build/cjs",
     "module": "CommonJS",
     "target": "ES2019",
-    "outDir": "build/cjs"
-  }
+    "moduleResolution": "Node",
+    "rootDir": "./src"
+  },
+  "include": ["src"]
 }
