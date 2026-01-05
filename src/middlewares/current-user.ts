@@ -1,5 +1,5 @@
 import type { Request,Response,NextFunction } from "express";
-import jwt from 'jsonwebtoken'
+import * as jwt from 'jsonwebtoken'
 interface UserPayload{
     id: string;
     email:string;
