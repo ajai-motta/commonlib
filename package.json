@@ -1,6 +1,6 @@
 {
   "name": "@ajaisgtickets/common",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "types": "./build/index.d.ts",
   "exports": {
