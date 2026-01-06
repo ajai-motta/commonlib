@@ -1,14 +1,14 @@
-export * from './errors/bad-request-error.js';
-export * from './errors/custom-error.js';
-export * from './errors/database-connection-error.js'
-export * from './errors/not-authorizeed-error.js'
-export * from './errors/not-found-error.js'
-export * from './errors/request-validation-error.js'
+export * from './errors/bad-request-error';
+export * from './errors/custom-error';
+export * from './errors/database-connection-error'
+export * from './errors/not-authorizeed-error'
+export * from './errors/not-found-error'
+export * from './errors/request-validation-error'
 
-export * from './middlewares/current-user.js'
-export * from './middlewares/error-handler.js'
-export * from './middlewares/require-auth.js'
-export * from './middlewares/validate-request.js'
+export * from './middlewares/current-user'
+export * from './middlewares/error-handler'
+export * from './middlewares/require-auth'
+export * from './middlewares/validate-request'
 
 
 
