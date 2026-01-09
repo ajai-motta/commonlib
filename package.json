@@ -1,6 +1,6 @@
 {
   "name": "@ajaisgtickets/common",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "",
   "types": "./build/index.d.ts",
   "main": "./build/index.js",
