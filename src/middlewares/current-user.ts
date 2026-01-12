@@ -14,7 +14,7 @@ declare global{
 }
 export const currentUser=(req:Request,res:Response,next:NextFunction)=>{
     if(!(req as any)?.session?.jwt){
-        console.log(req)
+      console.log('failed')
         return next()
     }
     try{
