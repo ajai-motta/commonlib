@@ -5,6 +5,7 @@ export interface OrderCreatedEvent{
     data:{
         id: string;
         status: OrderStatus;
+        version: number;
         userId: string;
         expiresAt: string //because we are goning to convert Date to json to transfer
         ticket: {

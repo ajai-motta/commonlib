@@ -13,6 +13,7 @@ export abstract class Publisher<T extends Event>{
     }
     publish(data:T['data']):Promise<void>{
         return new Promise((resolve,reject)=>{
+            console.log('above event execution')
             this.client.publish(this.subject,JSON.stringify(data),(err)=>{
                 if(err){
                     reject()
