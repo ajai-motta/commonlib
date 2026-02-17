@@ -8,5 +8,5 @@ export interface TicketCreatedEvent{
         price: number;
         userId: string;
 
-    }
+    }// orderId is not needed because there can't be a order id when we create a ticket
 }
