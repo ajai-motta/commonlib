@@ -5,7 +5,8 @@ OrderUpdated='order:updated',
 OrderCreated='order:created',
 Ordercancelled='order:cancelled',
 ExpirationComplete='expiration:complete',
-PaymentCreated='payment:created'
+PaymentCreated='payment:created',
+PaymentComplete='payment:complete'
 }
 //const printSubject=(subject: Subjects)=>{
 
